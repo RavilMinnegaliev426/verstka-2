@@ -1,0 +1,19 @@
+.btn,
+a.btn {
+  display: inline-block;
+  display: flex;
+  min-height: 59px;
+  justify-content: center;
+  align-items: center;
+  background-color: #69766d;
+  padding-left: 44px;
+  padding-right: 44px;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+  opacity: 0.8;
+  color: #f6f6f5;
+}
